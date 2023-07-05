@@ -10,7 +10,10 @@
    	systemctl enable httpd </br>
 	
 #Install PHP: </br>
+	amazon-linux-extras install epel  </br>
 	wget https://rpms.remirepo.net/enterprise/remi-release-7.rpm </br>
+ 	yum install remi-release-7.rpm </br>
+  	yum-config-manager --enable remi-php74 </br>
 	yum install -y php php-fpm php-cli php-curl php-mysqlnd php-zip php-mbstring php-devel </br>
  	systemctl restart httpd </br>
 
