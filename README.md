@@ -11,7 +11,7 @@
    	systemctl enable httpd </br>
 	
 #Install PHP: </br>
-	yum install -y php php-fpm php-cli php-curl php-mysqlnd php-zip php-mbstring php-devel </br>
+	yum install -y php php-fpm php-cli php-curl php-mysqlnd php-mbstring php-devel </br>
  	systemctl restart httpd </br>
   
 # Create EC2 for Mariadb Server with Amazon Linux 2 
