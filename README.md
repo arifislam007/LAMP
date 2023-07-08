@@ -22,10 +22,10 @@
    	systemctl enable mariadb </br>
 
 #create file name demo.sql with the following sql content:
-    CREATE TABLE employees (
-    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100) NOT NULL,
-    address VARCHAR(255) NOT NULL,
-    salary INT(10) NOT NULL );
+    CREATE TABLE employees ( </br>
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, </br>
+    name VARCHAR(100) NOT NULL, </br>
+    address VARCHAR(255) NOT NULL, </br>
+    salary INT(10) NOT NULL ); </br>
     
 #After create 2 VM now download this git code to Web Ec2  </br>
